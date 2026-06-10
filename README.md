@@ -1,5 +1,5 @@
 <!-- badge -->
-<img src="man/figures/logo.svg" align="right" height="150" alt="agrstat hex badge" />
+<img src="https://yyliou.github.io/hex/agrstat.svg" align="right" height="150" alt="agrstat hex badge" />
 
 # agrstat
 
@@ -170,8 +170,4 @@ The returned data frame carries the metadata attributes `title`
   implementation targets the postback categories.
 - The package depends on the current page structure of the official
   website; substantial redesigns of that site may require updates to the
-  parsing logic.
-
-## License
-
-MIT
+  parsing logi
