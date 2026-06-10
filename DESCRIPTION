@@ -1,0 +1,26 @@
+Package: agrstat
+Type: Package
+Title: Access Taiwan MOA Agricultural Statistics Dynamic Inquiry
+Version: 0.1.0
+Authors@R: person("Liou", email = "yuyou.liou@gmail.com", role = c("aut", "cre"))
+Description: Programmatic access to the Taiwan Ministry of Agriculture (MOA)
+    agricultural statistics "dynamic inquiry" system
+    (<https://agrstat.moa.gov.tw/sdweb/public/inquiry/InquireAdvance.aspx>).
+    The package drives the ASP.NET WebForms query wizard step by step:
+    list categories, list datasets within a category, inspect the available
+    classification axes (dimensions), and download the resulting table as a
+    tidy data frame. Selection of categories, datasets, classification
+    members and the time range is fully controllable via function arguments.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    httr,
+    xml2,
+    rvest,
+    stats,
+    utils
+Suggests:
+    tibble,
+    testthat (>= 3.0.0)
+RoxygenNote: 7.2.3
+NeedsCompilation: no

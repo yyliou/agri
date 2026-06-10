@@ -1,0 +1,15 @@
+# Generated manually (no roxygen build required)
+
+export(agri_session)
+export(agri_categories)
+export(agri_datasets)
+export(agri_dimensions)
+export(agri_fetch)
+
+importFrom(httr, GET, POST, content, handle, content_type, user_agent, timeout, stop_for_status)
+importFrom(xml2, read_html, xml_find_all, xml_find_first, xml_attr, xml_text, xml_name)
+importFrom(rvest, html_table)
+importFrom(stats, setNames)
+importFrom(utils, URLencode)
+
+S3method(print, agri_session)
