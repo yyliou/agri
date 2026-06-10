@@ -165,7 +165,3 @@ The returned data frame carries the metadata attributes `title`
 - The package depends on the current page structure of the official
   website; substantial redesigns of that site may require updates to the
   parsing logic.
-
-## License
-
-MIT
