@@ -1,7 +1,4 @@
-<!-- badge -->
-<img src="man/figures/logo.svg" align="right" height="150" alt="agrstat hex badge" />
-
-# agrstat
+# agrstat <img src="man/figures/logo.svg" align="right" height="150" alt="agrstat hex badge" />
 
 `agrstat` provides a programmatic R interface to the *Agricultural
 Statistics Dynamic Inquiry* system maintained by the Ministry of
