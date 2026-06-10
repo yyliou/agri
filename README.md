@@ -22,10 +22,7 @@ install.packages(c("httr", "xml2", "rvest"))
 
 # Install from source
 # install.packages("remotes")
-remotes::install_local("path/to/agri")
-
-# Or, during development
-# devtools::load_all("path/to/agri")
+remotes::install_github("yyliou/agri")
 ```
 
 ## Design
