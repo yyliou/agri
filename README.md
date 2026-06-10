@@ -1,5 +1,5 @@
 <!-- badge -->
-<img src="https://yyliou.github.io/hex/agrstat.svg" align="right" height="150" alt="agrstat hex badge" />
+<img src="man/figures/logo.svg" align="right" height="150" alt="agrstat hex badge" />
 
 # agrstat
 
