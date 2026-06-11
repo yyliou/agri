@@ -168,5 +168,4 @@ The returned data frame carries the metadata attributes `title`
 - A small number of categories are exposed on the landing page as direct
   links (`CategoryLink.ashx`) rather than postbacks; the present
   implementation targets the postback categories.
-- The package depends on the current page structure of the official
-  website; su
+- The package depends on the current page structure of the officia
