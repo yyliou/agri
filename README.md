@@ -1,7 +1,5 @@
-<!-- badge -->
-<img src="https://yyliou.github.io/hex/agrstat.svg" align="right" height="150" alt="agrstat hex badge" />
+# agrstat <img src="https://yyliou.github.io/hex/agrstat.svg" align="right" height="150" alt="agrstat hex badge" />
 
-# agrstat
 
 `agrstat` provides a programmatic R interface to the *Agricultural
 Statistics Dynamic Inquiry* system maintained by the Ministry of
@@ -168,4 +166,5 @@ The returned data frame carries the metadata attributes `title`
 - A small number of categories are exposed on the landing page as direct
   links (`CategoryLink.ashx`) rather than postbacks; the present
   implementation targets the postback categories.
-- The package depends on the current page structure of the officia
+- The package depends on the current page structure of the official
+  website; su
